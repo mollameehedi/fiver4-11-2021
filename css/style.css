@@ -67,6 +67,48 @@ header .header-top ul .padding-hid i {
   padding-left: 10px;
   display: inline-block; }
 
+.header-bottom {
+  padding: 10px 0;
+  background: white; }
+  .header-bottom img {
+    height: 60px; }
+  .header-bottom form {
+    padding-top: 12px; }
+    .header-bottom form input {
+      display: inline-block;
+      width: 45%;
+      float: left;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0; }
+    .header-bottom form .btn {
+      display: inline-block;
+      float: left;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      vertical-align: revert; }
+    .header-bottom form .location-b {
+      display: inline-block;
+      float: left; }
+  .header-bottom ul {
+    text-align: right; }
+    .header-bottom ul li {
+      display: inline-block;
+      text-align: center;
+      padding-left: 40px;
+      padding-top: 5px; }
+      .header-bottom ul li a {
+        color: #666; }
+        .header-bottom ul li a i {
+          font-size: 20px;
+          line-height: 1; }
+        .header-bottom ul li a p {
+          font-size: 13px;
+          cursor: pointer;
+          padding-top: 5px; }
+        .header-bottom ul li a:hover {
+          color: #008539;
+          text-decoration: none; }
+
 #nav {
   background: #f8f8f8; }
   #nav .navbar .navbar-nav .nav-item .nav-link {

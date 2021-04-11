@@ -80,7 +80,61 @@ header .header-top{
  }
 //  header part end
 
+.header-bottom{
+    padding: 10px 0;
+    background: white;
+    img{
+        height: 60px;
+    }
+    form{
+        padding-top: 12px;
+        input{
+            display: inline-block;
+            width: 45%;
+            float: left;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .btn{
+            display: inline-block;
+            float: left;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            vertical-align: revert;
+        }
+        .location-b{
+            display: inline-block;
+            float: left;
+        }
+    }
+    ul{
+        text-align: right;
+        
+        li{
+            display: inline-block;
+            text-align: center;
+            padding-left: 40px;
+            padding-top: 5px;
+            a{
+                color: #666;
+                i{
+                    font-size: 20px;
+                        line-height: 1;
+                }
+                p{
+                    font-size: 13px;
+                    cursor: pointer;
+                    padding-top: 5px;
+                }
+                &:hover{
+                    color:$mainc;
+                    text-decoration: none;
+                }
 
+            }
+        }
+    }
+}
 // navbar part start
 #nav{
     background: #f8f8f8;
@@ -153,7 +207,7 @@ header .header-top{
 
 
 // best category part start
-    #best-category{
+#best-category{
         .best-category-main{
             background: white;
             padding: 30px 15px;
