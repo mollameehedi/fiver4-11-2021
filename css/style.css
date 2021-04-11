@@ -130,6 +130,73 @@ header .header-top ul .padding-hid i {
   #nav .navbar .navbar-nav .nav-item .active {
     color: #008539; }
 
+#slic-category {
+  position: relative; }
+  #slic-category .banner-finder {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    width: 800px;
+    background: white;
+    transform: translateX(-50%);
+    padding: 20px 20px;
+    border-radius: 7px; }
+    #slic-category .banner-finder .gift-txt {
+      display: inline-block;
+      color: #222;
+      font-size: 18px;
+      font-weight: 600;
+      white-space: pre-line;
+      line-height: 11px;
+      text-align: left;
+      float: left;
+      text-transform: uppercase;
+      padding-right: 20px; }
+    #slic-category .banner-finder .box-item {
+      background: #f6f6f6;
+      padding: 5px 7px;
+      border-radius: 7px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 28%;
+      margin-right: 15px; }
+      #slic-category .banner-finder .box-item h4 {
+        display: block;
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        border-radius: 4px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        background: #f6f6f6;
+        color: #222;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all ease-in-out 0.25s; }
+      #slic-category .banner-finder .box-item h5 {
+        border: 0;
+        font-size: 14px;
+        font-weight: 400;
+        height: auto;
+        background: none; }
+    #slic-category .banner-finder .btn-m {
+      width: 28%;
+      height: 100%;
+      padding: 12px;
+      float: left;
+      display: inline-block;
+      background: #ff9212;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 500 !important;
+      font-size: 18px !important;
+      border-radius: 4px;
+      border: 0;
+      transition: all ease-in-out 0.25s; }
+
 #slic-category .slider-main {
   padding-top: 85px; }
   #slic-category .slider-main .slider-item {
