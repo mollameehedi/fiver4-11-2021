@@ -30,7 +30,16 @@ body {
 .btn-m {
   background: #008539;
   color: white;
-  float: right; }
+  float: right;
+  border: 1px solid #008539;
+  transition: all linear 0.2s 0s;
+  -webkit-transition: all linear 0.2s 0s;
+  -ms-transition: all linear 0.2s 0s;
+  -o-transition: all linear 0.2s 0s; }
+  .btn-m:hover {
+    color: #008539;
+    background: white;
+    border: 1px solid #008539; }
 
 .pt-50 {
   padding-top: 50px; }

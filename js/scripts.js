@@ -16,14 +16,16 @@ jQuery(document).ready(function(){
       slidesToShow: 9,
       slidesToScroll: 1,
       arrows: false,
+      autoplay: true,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 991,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 6,
+            slidesToScroll: 1,
             infinite: true,
-            dots: true
+            autoplay: true,
+            dots: false
           }
         },
         {
@@ -45,4 +47,22 @@ jQuery(document).ready(function(){
         // instead of a settings object
       ]
     });
+
+
+    $navoffset= $('.scroll-part').offset().top;
+$(window).scroll(function(){
+  $scrolling= $(this).scrollTop();
+  if($scrolling > $navoffset){
+    $('.scroll-part').addClass('nav-fixed');
+  }
+  else{
+    $('.scroll-part').removeClass('nav-fixed');
+  }
+  if($scrolling > 700){
+    $('.top-to').fadeIn();
+  }
+  else{
+    $('.top-to').fadeOut();
+  }
+})
 });
