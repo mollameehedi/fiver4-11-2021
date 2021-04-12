@@ -61,4 +61,107 @@
     .footer-contact .socials ul li {
         padding: 5px;
     }
+
+
+
+
+
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .header-top{
+        display: none;
+    }
+    .m-none{
+        display: none;
+    }
+    .m-btn {
+        background: #008539;
+        color: white;
+        font-size: 12px;
+        padding: 6px;
+        float: right;
+    }
+    .m-block{
+        display: block;
+    }
+    .header-bottom form input {
+        display: inline-block;
+        width: 85%;
+        /* float: left; */
+        text-align: center;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .header-bottom ul {
+        text-align: center;
+    }
+    .header-bottom ul li {
+        display: inline-block;
+        text-align: center;
+        padding: 0 8px;
+        padding-top: 16px;
+    }
+    #slic-category .slic-bottom-text h4 {
+        color: #222;
+        font-size: 19px;
+    }
+    #slic-category .slic-bottom-text p {
+        color: #222;
+        font-size: 12px;
+    }
+    #best-category .best-category-main .content h3 {
+        text-align: left;
+        font-weight: 500;
+        font-size: 16px;
+        justify-content: space-between;
+        padding-bottom: 0px;
+        float: left;
+    }
+    #best-category .best-category-main .best-category-item {
+        width: 100%;
+    }
+    #online-plant .main-online-plant .img-item {
+        padding: 0 0px;
+        text-align: center;
+    }
+    .footer-contact h4 {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+        display: inline-block;
+        padding-bottom: 6px;
+        color: #222;
+        line-height: 1.4;
+        padding-top: 25px;
+    }
+    .footer-contact .partner-img {
+        padding-top: 30px;
+    }
+    .footer-contact {
+        text-align: center;
+        padding: 5px 0 27px 0px;
+    }
+    #gift-her .main-online-plant .img-item {
+        padding: 0 0px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #best-category .best-category-main .best-category-item {
+        width: 50%;
+    }
+    
+    nav .fa-align-justify {
+        color: #008539;
+        font-size: 20px;
+        border: 1px solid #008539;
+        padding: 7px;
+    }
+    #nav .navbar .navbar-nav .nav-item{
+        text-align: center;
+    }
+    #nav .navbar .navbar-nav {
+        padding-bottom: 35px;
+    }
+
 }
