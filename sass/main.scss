@@ -50,6 +50,10 @@ body{
 .pt-50{
     padding-top: 50px;
 }
+.heightfixed{
+    height: 300px;
+    overflow: scroll;
+}
 /* common css end */
 
 
@@ -68,6 +72,10 @@ header .header-top{
     font-weight: 500;
     border-left: 1.5px solid #9494944a;
     padding-left: 20px;
+    a{
+        font-size:14px;
+    color:#222;
+    }
  }
  header .header-top ul .padding-hid{
     border-left:0;
@@ -139,7 +147,45 @@ header .header-top{
                 }
 
             }
+            .dropdown-item{
+                &:hover{
+                    color:white;
+                }
+            }
+            .gauest{
+                padding: 20px;
+                background: #333;
+                color:#999;
+                padding-bottom: 45px;
+                i{
+                    font-size: 20px;
+                        line-height: 1;
+                }
+            }
+            hr{
+                margin: 0px;
+            }
+            .user-float{
+                float: left;
+                
+                i{
+                    padding-right: 10px;
+                font-size: 22px;
+                }
+            }
+            .login{
+                float: right;
+                padding-right: 20px;
+                color: white;
+                &:hover{
+                    color:white;
+                }
+            }
         }
+    }
+    .menu-user{
+        width: 250px;
+        left: -70% !important;
     }
 }
 // navbar part start

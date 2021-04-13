@@ -44,6 +44,10 @@ body {
 .pt-50 {
   padding-top: 50px; }
 
+.heightfixed {
+  height: 300px;
+  overflow: scroll; }
+
 /* common css end */
 header .header-top {
   background: #f8f8f8; }
@@ -59,6 +63,9 @@ header .header-top ul li {
   font-weight: 500;
   border-left: 1.5px solid #9494944a;
   padding-left: 20px; }
+  header .header-top ul li a {
+    font-size: 14px;
+    color: #222; }
 
 header .header-top ul .padding-hid {
   border-left: 0; }
@@ -117,6 +124,32 @@ header .header-top ul .padding-hid i {
         .header-bottom ul li a:hover {
           color: #008539;
           text-decoration: none; }
+      .header-bottom ul li .dropdown-item:hover {
+        color: white; }
+      .header-bottom ul li .gauest {
+        padding: 20px;
+        background: #333;
+        color: #999;
+        padding-bottom: 45px; }
+        .header-bottom ul li .gauest i {
+          font-size: 20px;
+          line-height: 1; }
+      .header-bottom ul li hr {
+        margin: 0px; }
+      .header-bottom ul li .user-float {
+        float: left; }
+        .header-bottom ul li .user-float i {
+          padding-right: 10px;
+          font-size: 22px; }
+      .header-bottom ul li .login {
+        float: right;
+        padding-right: 20px;
+        color: white; }
+        .header-bottom ul li .login:hover {
+          color: white; }
+  .header-bottom .menu-user {
+    width: 250px;
+    left: -70% !important; }
 
 #nav {
   background: #f8f8f8; }
