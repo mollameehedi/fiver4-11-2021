@@ -131,6 +131,47 @@ jQuery(document).ready(function(){
         // instead of a settings object
       ]
     });
+    $('.best-category-slid-b').slick({
+      dots: false,
+      infinite: true,
+      autoplaySpeed: 1200,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      autoplay: flase,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            autoplay: true,
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
 
 
     $navoffset= $('.scroll-part').offset().top;
