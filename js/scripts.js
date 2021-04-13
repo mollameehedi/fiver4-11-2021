@@ -12,7 +12,8 @@ jQuery(document).ready(function(){
     $('.slider-main').slick({
       dots: false,
       infinite: false,
-      speed: 200,
+      autoplaySpeed: 100,
+      speed: 500,
       slidesToShow: 9,
       slidesToScroll: 1,
       arrows: false,
@@ -31,15 +32,15 @@ jQuery(document).ready(function(){
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 2,
             autoplay: true,
           }
         },
         {
-          breakpoint: 575,
+          breakpoint: 320,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             autoplay: true,
           }
@@ -72,15 +73,15 @@ jQuery(document).ready(function(){
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 2,
             autoplay: true,
           }
         },
         {
-          breakpoint: 575,
+          breakpoint: 320,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             autoplay: true,
           }
@@ -113,15 +114,15 @@ jQuery(document).ready(function(){
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 2,
+            slidesToShow: 2,
+            slidesToScroll: 1,
             autoplay: true,
           }
         },
         {
-          breakpoint: 575,
+          breakpoint: 5320,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             autoplay: true,
           }
@@ -154,15 +155,15 @@ jQuery(document).ready(function(){
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 2,
             autoplay: true,
           }
         },
         {
-          breakpoint: 575,
+          breakpoint: 320,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             autoplay: true,
           }
