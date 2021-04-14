@@ -94,13 +94,31 @@
         border-bottom-right-radius: 0;
     }
     .header-bottom ul {
-        text-align: center;
+        text-align: right;
+        padding-right: 0px;
+    }
+    .header-bottom ul li a {
+        color: #666;
+        font-size: 15px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: -64px;
+        left: 0px;
+        z-index: 888;
+    }
+    .skdslider ul.slide-navs li {
+        display: none;
     }
     .header-bottom ul li {
         display: inline-block;
         text-align: center;
-        padding: 0 8px;
+        padding: 0 0px;
         padding-top: 16px;
+    }
+    .header-bottom ul li a i {
+        font-size: 18px;
+        line-height: 1;
     }
     #slic-category .slic-bottom-text h4 {
         color: #222;

@@ -111,15 +111,15 @@ jQuery(document).ready(function(){
           }
         },
         {
-          breakpoint: 575,
+          breakpoint: 768,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             autoplay: true,
           }
         },
         {
-          breakpoint: 320,
+          breakpoint: 575,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
