@@ -179,7 +179,7 @@ header .header-top ul .padding-hid i {
     top: 60px;
     opacity: 0;
     visibility: hidden;
-    z-index: 888;
+    z-index: 999;
     background: #f9f9f9;
     width: 250px;
     left: -70% !important;
@@ -206,7 +206,8 @@ header .header-top ul .padding-hid i {
         width: 100px; }
     .header-bottom .cart .img-content {
       float: right;
-      width: 65%; }
+      width: 65%;
+      text-align: left; }
       .header-bottom .cart .img-content a {
         font-weight: 500;
         font-size: 17px;
