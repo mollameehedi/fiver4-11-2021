@@ -158,7 +158,8 @@
         padding: 7px;
     }
     #nav .navbar .navbar-nav .nav-item{
-        text-align: center;
+        text-align: left;
+        padding-left: 30px;
     }
     #nav .navbar .navbar-nav {
         padding-bottom: 35px;

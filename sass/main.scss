@@ -130,6 +130,7 @@ header .header-top{
             text-align: center;
             padding-left: 40px;
             padding-top: 5px;
+            position: relative;
             a{
                 color: #666;
                 i{
@@ -148,6 +149,7 @@ header .header-top{
 
             }
             .dropdown-item{
+                @include trans(.3s,0s );
                 &:hover{
                     color:white;
                 }
@@ -165,6 +167,8 @@ header .header-top{
             .gauest-c{
                 padding: 20px;
                 color:#999;
+                background:#f9f9f9;
+                
                 padding-bottom: 45px;
                 i{
                     font-size: 20px;
@@ -192,13 +196,39 @@ header .header-top{
             }
         }
     }
-    .menu-user{
-        width: 250px;
-        left: -70% !important;
-    }
     .menu-cart{
+        position: absolute;
+        top: 60px;
+        opacity: 0;
+         visibility: hidden;
+        z-index: 888;
+        background: #f9f9f9;
         width: 370px;
         left: -80% !important;
+        @include trans(.3s,0s );
+    }
+    .menu-user{
+        position: absolute;
+        top: 60px;
+        opacity: 0;
+         visibility: hidden;
+        z-index: 888;
+        background: #f9f9f9;
+        width: 250px;
+        left: -70% !important;
+        @include trans(.3s,0s );
+    }
+    .nav-item{
+        
+            &:hover .menu-cart{
+                opacity: 1;
+                visibility: visible;
+            }
+            &:hover .menu-user{
+                opacity: 1;
+                visibility: visible;
+            }
+        
     }
     .cart{
         padding: 14px;
@@ -407,6 +437,12 @@ header .header-top{
         .slider-item{
             padding:20px 25px;
             text-align: center;
+            @include trans(.3s,0s );
+            &:hover{
+                box-shadow: 1px 1px 10px 0px #999;
+                transform:scale(1.1);
+                border-radius: 10%;
+            }
             img{
                 width:100%;
                 display: inline-block;
