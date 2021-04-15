@@ -178,6 +178,7 @@
     #nav .navbar .navbar-nav .nav-item{
         text-align: left;
         padding-left: 30px;
+        padding-top: 10px;
     }
     #nav .navbar .navbar-nav {
         padding-bottom: 35px;

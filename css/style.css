@@ -130,7 +130,8 @@ header .header-top ul .padding-hid i {
         transition: all linear 0.3s 0s;
         -webkit-transition: all linear 0.3s 0s;
         -ms-transition: all linear 0.3s 0s;
-        -o-transition: all linear 0.3s 0s; }
+        -o-transition: all linear 0.3s 0s;
+        text-align: left; }
         .header-bottom ul li .dropdown-item:hover {
           color: white; }
       .header-bottom ul li .gauest {
@@ -438,7 +439,15 @@ header .header-top ul .padding-hid i {
     padding-bottom: 30px; }
   #online-plant .main-online-plant .img-item {
     padding: 0 40px;
-    text-align: center; }
+    text-align: center;
+    transition: all linear 0.3s 0s;
+    -webkit-transition: all linear 0.3s 0s;
+    -ms-transition: all linear 0.3s 0s;
+    -o-transition: all linear 0.3s 0s;
+    transition: all linear 0.3s 0s;
+    -webkit-transition: all linear 0.3s 0s;
+    -ms-transition: all linear 0.3s 0s;
+    -o-transition: all linear 0.3s 0s; }
     #online-plant .main-online-plant .img-item h3 {
       font-weight: 500;
       font-size: 24px;
@@ -451,6 +460,18 @@ header .header-top ul .padding-hid i {
       line-height: 1.5;
       color: #242424;
       padding-bottom: 45px; }
+    #online-plant .main-online-plant .img-item .img {
+      overflow: hidden;
+      transition: all linear 0.3s 0s;
+      -webkit-transition: all linear 0.3s 0s;
+      -ms-transition: all linear 0.3s 0s;
+      -o-transition: all linear 0.3s 0s; }
+    #online-plant .main-online-plant .img-item:hover img {
+      transition: all linear 0.3s 0s;
+      -webkit-transition: all linear 0.3s 0s;
+      -ms-transition: all linear 0.3s 0s;
+      -o-transition: all linear 0.3s 0s;
+      transform: scale(1.1); }
 
 #gift-her .main-online-plant {
   padding: 0px 75px;
@@ -466,8 +487,15 @@ header .header-top ul .padding-hid i {
     padding-top: 20px;
     padding-bottom: 30px; }
   #gift-her .main-online-plant .img-item {
+    overflow: hidden;
+    transition: all linear 0.3s 0s;
+    -webkit-transition: all linear 0.3s 0s;
+    -ms-transition: all linear 0.3s 0s;
+    -o-transition: all linear 0.3s 0s;
     padding: 0 35px;
     text-align: center; }
+    #gift-her .main-online-plant .img-item:hover {
+      transform: scale(1.1); }
     #gift-her .main-online-plant .img-item h3 {
       font-weight: 500;
       font-size: 24px;
